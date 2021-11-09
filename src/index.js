@@ -7,19 +7,22 @@ import App from "./App";
 import Login from "./Login";
 import Logout from "./Logout";
 
-ReactDOM.render(
-  <Auth0Provider
+const Routing = () => {
+  return (
+    <Auth0Provider
     domain="balayokesh.eu.auth0.com"
     clientId="eDVL9dzVfiyBO5epWCA7VtoCgyZswzrU"
     redirectUri={window.location.origin}
   >
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/' element={<App/>} />
-        <Route path='/login' element={<Login/>} />
-        <Route path='/logout' element={<Logout/>} />
+      <Route path='/' exact element={<App/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/logout' element={<Logout/>} />
       </Routes>
     </BrowserRouter>
-  </Auth0Provider>,
-  document.getElementById("root")
-);
+  </Auth0Provider>
+  )
+}
+
+ReactDOM.render(<Routing />, document.getElementById("root"));

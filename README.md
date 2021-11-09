@@ -12,3 +12,6 @@ Make sure to add `Allowed callback URL` field in settings of Auth0 dashboard - U
 ### Logout Implementation
 Make sure to add `Allowed logout URL's` field  in settings of Auth0 dashboard  
 ![image](https://user-images.githubusercontent.com/59578892/140891448-df7b62e9-536a-4c83-a552-a448b76fff50.png)
+
+### Getting user information
+[List of user properties](https://auth0.com/docs/users/user-profiles/user-profile-structure#user-profile-attributes)

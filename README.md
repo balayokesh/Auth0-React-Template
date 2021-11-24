@@ -1,17 +1,21 @@
-<h1 align='center'>Auth0-React Practice Repository</h1>
+<h1 align='center'>Auth0 React Template</h1>
 
 ## Description:
-This repository contains practice or demo code for implementing auth0 api services in react application.  
-Tech Stack: `ReactJS`
+Auth0 React template can be used to make things quicker and easier instead of creating a new react project with Auth0 authentication enabled.
 
-## Note:
-### Login Implementation
-Make sure to add `Allowed callback URL` field in settings of Auth0 dashboard - Used as a redirect URL after user has been logged in  
-![image](https://user-images.githubusercontent.com/59578892/140890999-f69343c0-8c97-4116-93c9-2617a74a23dd.png)
+## To run this project locally:
+```bash
+git clone https://github.com/balayokesh/Auth0-React-Practice.git
+```
+```bash
+cd Auth0-React-Template
+```
+```
+npm i && npm start
+```
 
-### Logout Implementation
-Make sure to add `Allowed logout URL's` field  in settings of Auth0 dashboard  
-![image](https://user-images.githubusercontent.com/59578892/140891448-df7b62e9-536a-4c83-a552-a448b76fff50.png)
+## Repository Contributors
 
-### Getting user information
-[List of user properties](https://auth0.com/docs/users/user-profiles/user-profile-structure#user-profile-attributes)
+<a href="https://github.com/balayokesh/Auth0-React-Template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=balayokesh/Auth0-React-Template" />
+</a>

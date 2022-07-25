@@ -8,7 +8,7 @@ Auth0 React template can be used to make things quicker and easier instead of cr
 git clone https://github.com/balayokesh/Auth0-React-Practice.git
 ```
 ```bash
-cd Auth0-React-Template
+cd Auth0-React-Practice
 ```
 ```
 npm i && npm start
